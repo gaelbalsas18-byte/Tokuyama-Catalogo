@@ -159,7 +159,7 @@ export default function Chatbot() {
 
                     <button
                       onClick={handleStart}
-                      className="w-full rounded-lg bg-blue-800 py-2 text-white hover:bg-blue-600 transition"
+                      className="w-full rounded-lg bg-black py-2 text-white hover:bg-blue-600 transition"
                     >
                       Continuar
                     </button>
