@@ -50,7 +50,7 @@ const PRODUCTOS = [
     id: 4,
     nombre: "PALFIQUE BOND",
     categoria: "adhesivos",
-    imagen: "/Productos/Adhesivos/palfiqueBond.jpg",
+    imagen: "/Productos/Adhesivos/Bond.jpg",
     descripcion:
       "Crea integridad y una capa de unión uniforme. PALFIQUE Bond emplea la tecnología de monómeros SR 3D para proporcionar una resistencia adhesiva fuerte y duradera, así como menor sensibilidad técnica y postoperatoria. Esta es la ventaja de un sistema de unión autograbado de un solo componente que emplea el monómero SR 3D.",
     link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/palfique-bond"
@@ -60,7 +60,7 @@ const PRODUCTOS = [
     id: 5,
     nombre: "PALFIQUE ASTERIA",
     categoria: "resinas",
-    imagen: "/Productos/ASTERIA.jpg",
+    imagen: "/Productos/Asteria.jpg",
     descripcion:
       "Palfique Asteria introduce un nuevo concepto simplificado de capas en dos pasos. Este sistema integral está compuesto por tonos mínimos; solo 7 tonos Body y 5 Enmalel cubren toda la gama de tonos dentales. El resultado estético se obtiene con el concepto simple de 2 capas de Palfique Asteria, ya que los tonos Cuerpo replican el cromo y el tono y los tonos Esmalte replican el valor.",
     link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-asteria"
