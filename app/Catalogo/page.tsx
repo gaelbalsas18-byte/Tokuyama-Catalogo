@@ -60,7 +60,7 @@ const PRODUCTOS = [
     id: 5,
     nombre: "PALFIQUE ASTERIA",
     categoria: "resinas",
-    imagen: "/Productos/Asteria.jpg",
+    imagen: "/Productos/Resinas/Asteria.jpg",
     descripcion:
       "Palfique Asteria introduce un nuevo concepto simplificado de capas en dos pasos. Este sistema integral está compuesto por tonos mínimos; solo 7 tonos Body y 5 Enmalel cubren toda la gama de tonos dentales. El resultado estético se obtiene con el concepto simple de 2 capas de Palfique Asteria, ya que los tonos Cuerpo replican el cromo y el tono y los tonos Esmalte replican el valor.",
     link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-asteria"

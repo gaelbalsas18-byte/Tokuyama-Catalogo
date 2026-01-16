@@ -64,7 +64,7 @@ export default function ProductsSection() {
           {/* Card 2 */}
           <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <Image
-              src="/Productos/LX5.jpg"
+              src="/Productos/Resinas/Palfique X5.jpg"
               alt="Palfique LX5"
               width={200}
               height={140}
@@ -78,7 +78,7 @@ export default function ProductsSection() {
           {/* Card 3 */}
         <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <Image
-              src="/Productos/ASTERIA.jpg"
+              src="/Productos/Resinas/Asteria.jpg"
               alt="Palfique Asteria"
               width={200}
               height={140}
