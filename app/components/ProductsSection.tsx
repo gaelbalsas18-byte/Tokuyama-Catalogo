@@ -78,7 +78,7 @@ export default function ProductsSection() {
           {/* Card 3 */}
         <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow">
             <Image
-              src="/Productos/Resinas/Asteria.jpg"
+              src="/Productos/Resinas/Palfique asteria.jpg"
               alt="Palfique Asteria"
               width={200}
               height={140}
