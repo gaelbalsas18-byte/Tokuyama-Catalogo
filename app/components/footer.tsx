@@ -28,7 +28,7 @@ export default function Footer() {
             />
           </a>
 
-           <a href="https://wa.me/525620922706" target="_blank">
+           <a href="https://wa.me/52 55 8449 4688" target="_blank">
             <Image
               src="/Redes/Whatsapp.png"
               alt="WhatsApp"
