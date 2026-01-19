@@ -28,15 +28,14 @@ export default function Footer() {
             />
           </a>
 
-            {/* WHATSAPP INHABILITADO
-           <a href="https://wa.me/521XXXXXXXXXX" target="_blank">
+           <a href="https://wa.me/525620922706" target="_blank">
             <Image
               src="/Redes/Whatsapp.png"
               alt="WhatsApp"
               width={32}
               height={32}
             />
-          </a>*/}
+          </a>
 
         </div>  
           
