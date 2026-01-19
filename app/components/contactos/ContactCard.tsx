@@ -24,7 +24,7 @@ export const CONTACTOS = [
     id: 3,
     nombre: "Alejandro Jesús Ubaldo Hernández",
     puesto: "Asesor clinico dental",
-    estado: "Cdmx, Guanajuato, Guerrero, Morelos",
+    estado: "Durango, Zacatecas, Sinaloa, Morelos, Guanajuato, Ciudad de México",
     email: "alejandro.ubaldo@balsasdental.com",
     telefono: "Tel: 55 1049 4292",
     imagen: "/Personal/Alejandro.jpg",
@@ -34,7 +34,7 @@ export const CONTACTOS = [
     id: 4,
     nombre: "Armando Serrano",
     puesto: "Asesor clinico dental",
-    estado: "Chihuahua, Sonora, Baja California Sur, Baja California, Tamaulipas, Estado De Mexico",
+    estado: "Chihuahua, Coahuila, Tamaulipas, Sonora, Estado de México",
     email: "armando.serrano@balsasdental.com",
     telefono: "Tel: 56 1185 4354",
     imagen: "/Personal/ARMANDO.jpeg",
@@ -54,7 +54,7 @@ export const CONTACTOS = [
     id: 6,
     nombre: "Ana Elena Miranda",
     puesto: "Asesor clinico dental",
-    estado:"Aguascalientes, Durango, Hidalgo, Michoacan, San Luis Potosi",
+    estado:"Aguascalientes, Guerrero, Hidalgo, Michoacán, San Luis Potosí, Ciudad de México",
     email: "elena.miranda@balsasdental.com",
     telefono: "Tel: 55 8101 9640",
     imagen: "/Personal/Ana.jpg",
@@ -62,26 +62,16 @@ export const CONTACTOS = [
 
   {
     id: 7,
-    nombre: "Hector Alan Dardón López",
-    puesto: "Asesor clinico dental",
-    estado:"Chiapas",
-    email: "alan.dardon@balsasdental.com",
-    telefono: "Tel: 961 283 0603",
-    imagen: "/Personal/Alan.jpeg",
-  },
-
-  {
-    id: 8,
     nombre: "Kinich Mariano Martinez Pimentel",
     puesto: "Asesor clinico dental",
-    estado:"Jalisco",
+    estado:"Jalisco, Colima, Nayarit",
     email: "kinich.martinez@balsasdental.com",
     telefono: "Tel: 55 6802 2533",
     imagen: "/Personal/KINICH.jpeg",
   },
 
   {
-    id: 9,
+    id: 8,
     nombre: "Rafael Benavides Ramos",
     puesto: "Asesor clinico dental",
     email: "rafael.benavides@balsasdental.com",
@@ -91,20 +81,20 @@ export const CONTACTOS = [
   },
 
   {
-    id: 10,
+    id: 9,
     nombre: "Veronica Eloisa Villegas Piña",
     puesto: "Asesor clinico dental",
-    estado:"Cdmx, Sinaloa, Veracruz, Jalisco, Puebla, Oaxaca, Baja California, Morelos, Guanajuato, Yucatan, Edomex, Nuevo Leon",
+    estado:" Nuevo León, Aguascalientes, Baja California, Ciudad de México, Estado de México, Guanajuato, Morelos, Oaxaca, Puebla, Yucatán",
     email: "ventas.mayoreo@balsasdental.com",
     telefono: "Tel: 56 1512 9211",
     imagen: "/Personal/Vero.jpg",
   },
 
   {
-    id: 11,
+    id: 10,
     nombre: "Humberto Corvera Santillan",
     puesto: "Asesor clinico dental",
-    estado: "Querétaro",
+    estado: "Baja California, Baja California sur, Chiapas, Querétaro, Tabasco, Yucatán",
     email:  "humberto@bioden.mx",
     telefono: "Tel: 55 8034 5711",
     imagen: "/Personal/humberto.jpg"
@@ -112,20 +102,20 @@ export const CONTACTOS = [
   },
 
   {
-    id: 12,
+    id: 11,
     nombre: "Ana Michelle Ramírez González",
     puesto: "Asesor clinico dental",
-    estado:"Cdmx",
+    estado:"Ciudad de México, Oaxaca, Puebla, Veracruz",
     email: "ana.ramirez@balsasdental.com",
     telefono: "Tel: 81 2074 4310",
     imagen: "/Personal/Michelle.jpg"    
   },
 
   {
-    id: 13,
+    id: 12,
     nombre: "Melissa Andrea Rodríguez Otero",
     puesto: "Asesor clinico dental",
-    estado: "Puebla",
+    estado: "Puebla, Tlaxcala",
     email: "puebla.promotor@balsasdental.com",
     telefono: "Tel: 222 766 2239",
     imagen: "/Personal/Melissa.jpg"
