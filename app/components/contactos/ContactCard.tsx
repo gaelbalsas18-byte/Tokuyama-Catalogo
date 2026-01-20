@@ -7,7 +7,7 @@ export const CONTACTOS = [
     puesto: "Gerente Comercial",
     email: "direcciongeneral@balsasdental.com",
     telefono: "Tel: 55 5407 6025",
-    imagen: "/Personal/adri.jpg"
+    imagen: "/Personal/Fernando.jpg"
     
   },
 
