@@ -3,7 +3,7 @@ import { h3 } from "framer-motion/client";
 export const CONTACTOS = [
   {
     id: 1,
-    nombre: "Fernando Santamaria Ramirez",
+    nombre: "Fernando Santamaría Ríos",
     puesto: "Gerente Comercial",
     email: "direcciongeneral@balsasdental.com",
     telefono: "Tel: 55 5407 6025",
