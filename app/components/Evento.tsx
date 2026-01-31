@@ -11,11 +11,8 @@ const IMAGENES_EVENTO = [
   "/Evento/3.png",
   "/Evento/4.png",
   "/Evento/5.png",
-  "/Evento/6.png",
   "/Evento/7.png",
   "/Evento/8.png",
-  "/Evento/9.png",
-  "/Evento/10.png",
 ]
 
 export default function Evento() {
