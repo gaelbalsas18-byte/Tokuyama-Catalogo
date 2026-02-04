@@ -90,9 +90,16 @@ export default function Evento() {
       <div className="relative z-10 max-w-6xl mx-auto px-10 mt-20 pb-24">
         <div className="w-full flex justify-center">
           
-            <button className="px-10 py-3 border border-black tracking-wide uppercase text-sm hover:bg-black hover:text-white transition-all duration-300">
-              Proximamente
-            </button>
+            <a
+              href="https://fest.tokuyama.mx/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-10 py-3 border border-black tracking-wide uppercase text-sm hover:bg-black hover:text-white transition-all duration-300">
+                Próximamente
+              </button>
+            </a>
+
         </div>
       </div>
     </section>
