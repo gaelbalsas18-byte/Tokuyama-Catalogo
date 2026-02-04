@@ -96,10 +96,9 @@ export default function Evento() {
               rel="noopener noreferrer"
             >
               <button className="px-10 py-3 border border-black tracking-wide uppercase text-sm hover:bg-black hover:text-white transition-all duration-300">
-                Próximamente
+                VISITAR
               </button>
             </a>
-
         </div>
       </div>
     </section>
