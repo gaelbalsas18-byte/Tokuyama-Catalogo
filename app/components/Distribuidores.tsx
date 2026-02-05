@@ -339,7 +339,7 @@ export default function Distribuidores() {
       <div className="flex flex-col lg:flex-row gap-16 items-center">
         {/* MAPA */}
         <div className="relative w-[450px] h-[320px]">
-          <svg viewBox="0 0 1100 700" className="w-full h-full">
+          <svg viewBox="0 0 1100 700" className="w-[450] h-[320]">
             {/* MAPA BASE */}
             <path
               d="M120 120 L680 120 L640 520 L160 520 Z"
