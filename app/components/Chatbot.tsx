@@ -112,17 +112,20 @@ export default function Chatbot() {
             exit={{ opacity: 0, y: 20, scale: 0.98 }}
             transition={{ duration: 0.35, ease: "easeOut" }}
             className="
-              fixed 
-              bottom-4 right-4
-              sm:bottom-6 sm:right-6
+              fixed
+              bottom-4
+              left-1/2 -translate-x-1/2
+              sm:left-auto sm:translate-x-0 sm:right-6 
+
+              sm:bottom-6
               z-50
 
-              w-[88vw]
-              max-w-[320px]
+              w-[92vw]
+              max-w-[340px]
               sm:w-80
               md:w-96
 
-              max-h-[75vh]
+              max-h-[70vh]
               sm:max-h-none
               overflow-y-auto
 
