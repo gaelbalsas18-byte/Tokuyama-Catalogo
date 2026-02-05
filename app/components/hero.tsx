@@ -4,7 +4,8 @@ import { motion } from "framer-motion"
 
 export default function Hero() {
   return (
-    <section className="relative h-screen overflow-hidden">
+    <section className="relative min-h-screen overflow-hidden">
+
       {/* VIDEO FONDO */}
       <video
         autoPlay
@@ -14,67 +15,90 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source src="/espferas.mp4" type="video/mp4" />
-        Tu navegador no soporta video HTML5.
       </video>
 
       {/* OVERLAY */}
-      <div className="absolute inset-0 bg-black/10 z-0" />
+      <div className="absolute inset-0 bg-black/20 z-0" />
 
-      {/* LOGO BALSAS */}
-      <motion.div
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
-        className="absolute top-0 left-0 z-20"
-      >
-        <Image
-          src="/logos/logo balsas.png"
-          alt="Balsas"
-          width={140}
-          height={110}
-          priority
-        />
-      </motion.div>
+      {/* LOGOS */}
+      <div className="absolute top-4 left-0 right-0 z-20 px-4">
+        <div className="flex items-center justify-between max-w-3xl mx-auto">
 
-      {/* LOGO TOKUYAMA */}
-      <motion.div
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
-        className="absolute top-0 right-240 z-20"
-      >
-        <Image
-          src="/logos/logo tokuyama.png"
-          alt="Tokuyama Dental"
-          width={140}
-          height={110}
-          priority
-        />
-      </motion.div>
+          {/* BALSAS */}
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <Image
+              src="/logos/logo balsas.png"
+              alt="Balsas"
+              width={100}
+              height={80}
+              className="w-16 sm:w-20 md:w-24"
+              priority
+            />
+          </motion.div>
+
+          {/* TOKUYAMA */}
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            <Image
+              src="/logos/logo tokuyama.png"
+              alt="Tokuyama Dental"
+              width={100}
+              height={80}
+              className="w-16 sm:w-20 md:w-24"
+              priority
+            />
+          </motion.div>
+
+        </div>
+      </div>
 
       {/* TEXTO */}
-      <div className="absolute left-8 top-1/2 -translate-y-1/2 max-w-xl z-10">
-        <motion.h1
-          initial={{ opacity: 0, x: -30 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-5xl md:text-5xl text-blue-800 font-semibold leading-tight"
-        >
-          Innovación japonesa <br />
-          en productos clínicos <br />
-          de alta calidad
-        </motion.h1>
+      <div className="relative z-10 flex items-center min-h-screen px-6">
+        <div className="w-full max-w-2xl mx-auto text-center md:text-left">
 
-        <motion.p
-          initial={{ opacity: 0, x: -30 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="mt-4 text-black text-lg"
-        >
-          Soluciones dentales de precisión respaldadas
-          por tecnología <br/> japonesa de vanguardia.
-        </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            className="
+              text-3xl
+              sm:text-4xl
+              md:text-4xl
+              font-semibold
+              leading-tight
+              text-blue-800
+            "
+          >
+            Innovación japonesa <br />
+            en productos clínicos <br />
+            de alta calidad.
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
+            className="
+              mt-4
+              text-base
+              sm:text-lg
+              text-black
+            "
+          >
+            Soluciones dentales de precisión respaldadas
+            por tecnología japonesa de vanguardia.
+          </motion.p>
+
+        </div>
       </div>
+
     </section>
   )
 }
