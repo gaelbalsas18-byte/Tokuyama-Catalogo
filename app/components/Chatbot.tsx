@@ -125,7 +125,8 @@ export default function Chatbot() {
               z-50
 
               w-auto
-              max-w-[340px]
+              w-[78vw]
+              max-w-[290px]
               sm:w-80
               md:w-96
 
