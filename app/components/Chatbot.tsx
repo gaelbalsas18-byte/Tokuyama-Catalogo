@@ -111,27 +111,28 @@ export default function Chatbot() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.98 }}
             transition={{ duration: 0.35, ease: "easeOut" }}
-           className="
-            fixed
-            bottom-4 right-4
-            sm:bottom-6 sm:right-6
-            z-50
+            className="
+              fixed 
+              bottom-4 right-4
+              sm:bottom-6 sm:right-6
+              z-50
 
-            w-[88vw]
-            max-w-[360px]
-            sm:w-80
-            md:w-96
+              w-[88vw]
+              max-w-[360px]
+              sm:w-80
+              md:w-96
 
-            max-h-[75vh]
-            sm:max-h-none
-            overflow-y-auto
+              max-h-[75vh]
+              sm:max-h-none
+              overflow-y-auto
 
-            rounded-2xl 
-            border 
-            bg-white 
-            shadow-2xl 
-            overflow-hidden
-            "
+              rounded-2xl 
+              border 
+              bg-white 
+              shadow-2xl 
+              overflow-hidden
+              "
+
               >    
             {/* 🔵 LÍNEA AZUL ANIMADA */}
             <div className="relative h-[5px] w-full overflow-hidden">
