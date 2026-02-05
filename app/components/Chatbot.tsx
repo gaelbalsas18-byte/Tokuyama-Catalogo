@@ -114,7 +114,7 @@ export default function Chatbot() {
            className="
             fixed
             botton-4 right-4
-            sm:botton-6 sm:right-6
+            sm:botton-6 sm:right-3
             z-50
             w-[88vw]
             max-w-[360px]
