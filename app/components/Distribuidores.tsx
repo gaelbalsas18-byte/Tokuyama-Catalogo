@@ -339,7 +339,7 @@ export default function Distribuidores() {
       <div className="flex flex-col lg:flex-row gap-16 items-center">
         {/* MAPA */}
         <div className="relative w-[450px] h-[320px]">
-          <svg viewBox="0 0 1100 700" className="w-[450] h-[320]">
+          <svg viewBox="0 0 1100 700" className="w-full h-full">
             {/* MAPA BASE */}
             <path
               d="M120 120 L680 120 L640 520 L160 520 Z"
@@ -610,13 +610,12 @@ export default function Distribuidores() {
         </div>
 
         {/* INFO DISTRIBUIDORES */}
-        <div className="min-w-[260px]">
+        <div className="min-w-[120px]">
           {info ? (
             <>
               <h3 className="text-xl font-semibold mb-4">
                 {info.nombre}
               </h3>
-
               <div className="space-y-3">
                 {info.distribuidores.map((dist, index) => (
                   <motion.div
