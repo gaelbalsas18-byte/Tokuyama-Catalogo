@@ -85,7 +85,8 @@ export default function Chatbot() {
             onClick={resumeChat}
             className="
             fixed 
-            bottom-4 right-4
+            bottom-4
+            left-1/2 -translate-x-1/2
             sm:bottom-6 sm:right-6
             z-50 
             rounded-xl 
@@ -125,7 +126,7 @@ export default function Chatbot() {
               sm:w-80
               md:w-96
 
-              max-h-[70vh]
+              max-h-[70vh] sm:max-h-[75vh]
               sm:max-h-none
               overflow-y-auto
 
