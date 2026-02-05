@@ -610,7 +610,7 @@ export default function Distribuidores() {
         </div>
 
         {/* INFO DISTRIBUIDORES */}
-        <div className="min-w-[120px]">
+        <div className="min-w-[60px]">
           {info ? (
             <>
               <h3 className="text-xl font-semibold mb-4">
