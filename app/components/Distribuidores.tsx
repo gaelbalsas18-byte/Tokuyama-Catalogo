@@ -309,7 +309,7 @@ export default function Distribuidores() {
 
     <section
       id="distribuidores"
-      className="min-h-screen bg-blue-700 text-black flex flex-col items-center justify-center px-10 py-15"
+      className="min-h-screen bg-white text-black flex flex-col items-center justify-center px-10 py-15"
     >
       {/* TÍTULO */}
       <h2 className="text-4xl font-semibold mb-4 text-blue-800">
