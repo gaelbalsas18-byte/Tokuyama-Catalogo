@@ -85,9 +85,12 @@ export default function Chatbot() {
             onClick={resumeChat}
             className="
             fixed 
-            bottom-4
-            left-1/2 -translate-x-1/2
-            sm:bottom-6 sm:right-6
+            bottom-4 
+            left-1/2 -translate-x-1/2   /* centrado en móvil */
+
+            sm:left-auto sm:translate-x-0 sm:right-6  /* derecha en desktop */
+            sm:bottom-6
+
             z-50 
             rounded-xl 
             bg-black/60 
@@ -97,7 +100,7 @@ export default function Chatbot() {
             backdrop-blur 
             hover:bg-black 
             transition
-            "
+          "
           >
             Asistente en espera
           </motion.button>
@@ -113,21 +116,22 @@ export default function Chatbot() {
             exit={{ opacity: 0, y: 20, scale: 0.98 }}
             transition={{ duration: 0.35, ease: "easeOut" }}
             className="
-              fixed
-              bottom-4
-              left-1/2 -translate-x-1/2
-              sm:left-auto sm:translate-x-0 sm:right-6 
+              fixed 
+              bottom-4 
+              left-4 right-4   /* ocupa el espacio entre ambos lados */
+              sm:left-auto sm:right-6   /* en desktop vuelve a la derecha */
 
               sm:bottom-6
               z-50
 
-              w-[92vw]
+              w-auto
               max-w-[340px]
               sm:w-80
               md:w-96
 
+              mx-auto   /* centra cuando left/right están activos */
+
               max-h-[70vh] sm:max-h-[75vh]
-              sm:max-h-none
               overflow-y-auto
 
               rounded-2xl 
@@ -135,7 +139,7 @@ export default function Chatbot() {
               bg-white 
               shadow-2xl 
               overflow-hidden
-              "
+            "
               >    
             {/* 🔵 LÍNEA AZUL ANIMADA */}
             <div className="relative h-[5px] w-full overflow-hidden">
