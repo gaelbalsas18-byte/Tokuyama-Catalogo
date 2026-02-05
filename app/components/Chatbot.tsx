@@ -118,7 +118,7 @@ export default function Chatbot() {
               z-50
 
               w-[88vw]
-              max-w-[360px]
+              max-w-[320px]
               sm:w-80
               md:w-96
 
@@ -132,7 +132,6 @@ export default function Chatbot() {
               shadow-2xl 
               overflow-hidden
               "
-
               >    
             {/* 🔵 LÍNEA AZUL ANIMADA */}
             <div className="relative h-[5px] w-full overflow-hidden">
