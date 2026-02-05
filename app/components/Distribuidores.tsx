@@ -322,7 +322,6 @@ export default function Distribuidores() {
       <p className="text-black mb-10 text-center max-w-x2">
         Selecciona un estado para visualizar la disponibilidad de distribuidores en el país.
       </p>
-
       {/* SELECTOR */}
       <select
         value={estadoActivo}
@@ -339,7 +338,7 @@ export default function Distribuidores() {
 
       <div className="flex flex-col lg:flex-row gap-16 items-center">
         {/* MAPA */}
-        <div className="relative w-[700px] h-[420px]">
+        <div className="relative w-[600px] h-[320px]">
           <svg viewBox="0 0 1100 700" className="w-full h-full">
             {/* MAPA BASE */}
             <path
