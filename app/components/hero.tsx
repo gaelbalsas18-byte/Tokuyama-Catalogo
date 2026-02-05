@@ -23,9 +23,10 @@ export default function Hero() {
       {/* CONTENEDOR GENERAL */}
       <div className="relative z-10 min-h-screen flex flex-col">
 
-        {/* HEADER LOGOS */}
-        <div className="flex items-start justify-between px-6 pt-4 max-w-7xl mx-auto w-full">
+        {/* LOGOS JUNTOS (lado izquierdo) */}
+        <div className="flex items-center gap-4 px-6 pt-4 max-w-7xl mx-auto w-full">
           
+          {/* BALSAS */}
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -41,6 +42,7 @@ export default function Hero() {
             />
           </motion.div>
 
+          {/* TOKUYAMA */}
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
