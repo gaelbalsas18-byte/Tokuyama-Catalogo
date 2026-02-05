@@ -111,29 +111,25 @@ export default function Chatbot() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.98 }}
             transition={{ duration: 0.35, ease: "easeOut" }}
-            className="
-            fixed 
-            bottom-4 right-4
-            sm:bottom-6 sm:right-6
+           className="
+            fixed
+            botton-4 right-4
+            sm:botton-6 sm:right-6
             z-50
-
-            w-[92vw] 
-            sm:w-80 
+            w-[88vw]
+            max-w-[360px]
+            sm:w-80
             md:w-96
 
-            h-[70vh] 
-            sm:h-auto
-
-            max-h-[85vh]
+            max-h-[75vh]
+            sm:max-h-none
             overflow-y-auto
-
-            rounded-2xl 
-            border 
-            bg-white 
-            shadow-2xl 
+            rounded-2x1
+            border
+            bg-white
+            shadow-2x1
             overflow-hidden
             "
-
               >    
             {/* 🔵 LÍNEA AZUL ANIMADA */}
             <div className="relative h-[5px] w-full overflow-hidden">
@@ -163,7 +159,6 @@ export default function Chatbot() {
                 x
               </button>
             </div>
-
             {/* BODY */}
             <div className="p-4 text-sm text-black   space-y-4">
               <AnimatePresence mode="wait">
@@ -191,7 +186,6 @@ export default function Chatbot() {
                       placeholder="Escribe tu nombre"
                       className="w-full rounded-lg border px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-black"
                     />
-
                     <button
                       onClick={handleStart}
                       className="w-full rounded-lg bg-black py-2 text-white hover:bg-blue-600 transition"
@@ -200,7 +194,6 @@ export default function Chatbot() {
                     </button>
                   </motion.div>
                 )}
-
                 {step === "menu" && (
                   <motion.div
                     key="menu"
@@ -252,7 +245,6 @@ export default function Chatbot() {
                     </div>
                   </motion.div>
                 )}
-
                 {step === "idle" && (
                   <motion.div
                     key="idle"
