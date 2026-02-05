@@ -83,7 +83,20 @@ export default function Chatbot() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
             onClick={resumeChat}
-            className="fixed bottom-6 right-6 z-50 rounded-xl bg-black/60 px-4 py-2 text-xs text-white backdrop-blur hover:bg-black transition"
+            className="
+            fixed 
+            bottom-4 right-4
+            sm:bottom-6 sm:right-6
+            z-50 
+            rounded-xl 
+            bg-black/60 
+            px-4 py-2 
+            text-xs 
+            text-white 
+            backdrop-blur 
+            hover:bg-black 
+            transition
+            "
           >
             Asistente en espera
           </motion.button>
@@ -98,8 +111,30 @@ export default function Chatbot() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.98 }}
             transition={{ duration: 0.35, ease: "easeOut" }}
-            className="fixed bottom-6 right-6 z-50 w-80 rounded-2xl border bg-white shadow-2xl overflow-hidden"
-          >
+            className="
+            fixed 
+            bottom-4 right-4
+            sm:bottom-6 sm:right-6
+            z-50
+
+            w-[92vw] 
+            sm:w-80 
+            md:w-96
+
+            h-[70vh] 
+            sm:h-auto
+
+            max-h-[85vh]
+            overflow-y-auto
+
+            rounded-2xl 
+            border 
+            bg-white 
+            shadow-2xl 
+            overflow-hidden
+            "
+
+              >    
             {/* 🔵 LÍNEA AZUL ANIMADA */}
             <div className="relative h-[5px] w-full overflow-hidden">
               <motion.div
