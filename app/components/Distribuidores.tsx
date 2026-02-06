@@ -338,7 +338,13 @@ export default function Distribuidores() {
 
       <div className="flex flex-col lg:flex-row gap-16 items-start w-full">
         {/* MAPA */}
-        <div className="relative w-[450px] h-[320px]">
+        <div className="
+              relative 
+              w-full max-w-[450px] h-[320px]
+
+              md:max-w-[600px] md:h-[420px]
+              lg:max-w-[750px] lg:h-[520px]
+            ">
           <svg viewBox="0 0 1100 700" className="w-full h-full">
             {/* MAPA BASE */}
             <path
