@@ -5,31 +5,32 @@ import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 
 const CASOS = [
-  {
-    titulo: "Restauración clase I en Od 46 con tokuyama Asteria",
-    imagen: "/Casos/caso1T.jpg",
-    pasos: [
-      "Tokuyama Asteria a3B",
-      "Tokuyama Asteria WE",
-      "Stain ochre y Dark Brown",
-      "Tokuyama Universal Bond",
-      "Cambio de restauración en resina, logramos el objetivo de devolver anatomía y función. Molar 47 sellamos con resina universal flow consistencia High.",
-    ],
-  },
-  {
-    titulo: "Restauración clase II con resinas Asteria y sistema palodent Dentsply",
-    imagen: "/Casos/caso2T.jpg",
-    pasos: [
-      "Estratificación con resinas Tokuyama Asteria:",
-      "Sistema Palodent Dentsply",
-      "Asteria A2B",
-      "Asteria WE",
-      "Asteria BL",
-      "Stains ochre y Dark Brown",
-      "Adhesivo Tokuyama Universal Bond",
-      "Logramos restaurar un buen punto de contacto, y una buena anatomía",
-    ],
-  },
+          {
+            titulo: "Restauración clase I en OD 46 con Tokuyama Asteria",
+            imagen: "/Casos/caso1T.jpg",
+            pasos: [
+              "Tokuyama Asteria A3B",
+              "Tokuyama Asteria WE",
+              "Stain Ochre y Dark Brown",
+              "Tokuyama Universal Bond",
+              "Cambio de restauración en resina. Logramos el objetivo de devolver anatomía y función. Molar 47 sellado con resina universal Flow de consistencia High.",
+            ],
+          },
+
+          {
+            titulo: "Restauración clase II con resinas Asteria y sistema Palodent Dentsply",
+            imagen: "/Casos/caso2T.jpg",
+            pasos: [
+              "Estratificación con resinas Tokuyama Asteria:",
+              "Sistema Palodent Dentsply",
+              "Asteria A2B",
+              "Asteria WE",
+              "Asteria BL",
+              "Stains Ochre y Dark Brown",
+              "Adhesivo Tokuyama Universal Bond",
+              "Logramos restaurar un buen punto de contacto y una adecuada anatomía.",
+            ],
+          }
 ]
 
 

@@ -341,7 +341,6 @@ export default function Distribuidores() {
         <div className="
               relative 
               w-full max-w-[450px] h-[320px]
-
               md:max-w-[600px] md:h-[420px]
               lg:max-w-[750px] lg:h-[520px]
             ">
