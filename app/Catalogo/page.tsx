@@ -21,7 +21,7 @@ const PRODUCTOS = [
     categoria: "adhesivos",
     imagen: "/Productos/Adhesivos/UNIVERSAL BOND.jpg",
     descripcion:
-      "PALFIQUE UNIVERSAL BOND es un sistema adhesivo tanto para restauraciones directas como indirectas que puede utilizarse con técnicas de autograbado, grabado selectivo y grabado total. Como adhesivo universal, PALFIQUE UNIVERSAL BOND ha sido diseñado para ser totalmente compatible con materiales compuestos de curado a la luz, autocurados y de doble curado.",
+      "PALFIQUE UNIVERSAL BOND es un sistema adhesivo para restauraciones directas e indirectas que puede utilizarse con técnicas de autograbado, grabado selectivo y grabado total. Como adhesivo universal, PALFIQUE UNIVERSAL BOND ha sido diseñado para ser totalmente compatible con materiales compuestos fotopolimerizables, autocurables y de doble curado.",
     link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/kit-palfique-universal-bond",
   },
 
@@ -31,7 +31,7 @@ const PRODUCTOS = [
     categoria: "cementos",
     imagen: "/Productos/ESTECEM KIT.jpg",
     descripcion:
-      " Cemento resinoso adhesivo de curado dual (luz y/o autopolimerización), radiopaco y universal, diseñado para una cementación indirecta fiable y estética de coronas, puentes, carillas, inlay/onlays, y pernos en una amplia gama de materiales (cerámicas, metales, resinas).",
+      " Cemento resinoso adhesivo de curado dual (luz y/o autopolimerización), radiopaco y universal, diseñado para una cementación indirecta fiable y estética de coronas, puentes, carillas, inlays/onlays y pernos en una amplia gama de materiales (cerámicas, metales y resinas).",
     link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/kit-estecem-plus-universal"
 
   },
@@ -42,7 +42,7 @@ const PRODUCTOS = [
     categoria: "cementos",
     imagen: "/Productos/Adhesivos/ESTECEM.jpg",
     descripcion:
-      " Cemento resinoso adhesivo de curado dual (luz y/o autopolimerización), radiopaco y universal, diseñado para una cementación indirecta fiable y estética de coronas, puentes, carillas, inlay/onlays, y pernos en una amplia gama de materiales (cerámicas, metales, resinas).",
+      " Cemento resinoso adhesivo de curado dual (luz y/o autopolimerización), radiopaco y universal, diseñado para una cementación indirecta fiable y estética de coronas, puentes, carillas, inlay/onlays, y pernos en una amplia gama de materiales (cerámicas, metales, resinas).Cemento resinoso adhesivo de curado dual (luz y/o autopolimerización), radiopaco y universal, diseñado para una cementación indirecta fiable y estética de coronas, puentes, carillas, inlays/onlays y pernos en una amplia gama de materiales (cerámicas, metales y resinas).",
     link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/estecem-plus-paste"
   },
 
@@ -52,7 +52,7 @@ const PRODUCTOS = [
     categoria: "adhesivos",
     imagen: "/Productos/Adhesivos/Bond.jpg",
     descripcion:
-      "Crea integridad y una capa de unión uniforme. PALFIQUE Bond emplea la tecnología de monómeros SR 3D para proporcionar una resistencia adhesiva fuerte y duradera, así como menor sensibilidad técnica y postoperatoria. Esta es la ventaja de un sistema de unión autograbado de un solo componente que emplea el monómero SR 3D.",
+      " Crea integridad y una capa de unión uniforme. PALFIQUE Bond emplea la tecnología de monómero SR 3D para proporcionar una resistencia adhesiva fuerte y duradera, así como una menor sensibilidad técnica y postoperatoria. Esta es la ventaja de un sistema adhesivo autograbador de un solo componente que utiliza el monómero SR 3D.",
     link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/palfique-bond"
   },
 
@@ -62,7 +62,7 @@ const PRODUCTOS = [
     categoria: "resinas",
     imagen:"/Productos/Resinas/Palfique asteria.jpg",
     descripcion:
-      "Palfique Asteria introduce un nuevo concepto simplificado de capas en dos pasos. Este sistema integral está compuesto por tonos mínimos; solo 7 tonos Body y 5 Enmalel cubren toda la gama de tonos dentales. El resultado estético se obtiene con el concepto simple de 2 capas de Palfique Asteria, ya que los tonos Cuerpo replican el cromo y el tono y los tonos Esmalte replican el valor.",
+      "Palfique Asteria introduce un nuevo concepto simplificado de estratificación en dos pasos. Este sistema integral está compuesto por una cantidad mínima de tonos: solo 7 tonos Body y 5 tonos Enamel cubren toda la gama de tonos dentales. El resultado estético se obtiene con el concepto simple de dos capas de Palfique Asteria, ya que los tonos Body replican el croma y el tono, mientras que los tonos Enamel replican el valor.",
     link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-asteria"
   },
 
@@ -72,7 +72,7 @@ const PRODUCTOS = [
     categoria: "resinas",
     imagen: "/Productos/Resinas/PALFIQUE LX5.jpg",
     descripcion:
-      "PALFIQUE LX5, que ofrece restauraciones estéticas realistas, está impregnado con nuestros rellenos esféricos Supra-Nano y diseñado por Tokuyama Dental. La resina compuesta de Tokuyama Dental es reconocida mundialmente y cuenta con una pulibilidad excepcional, una amplia gama de tonos y alta resistencia al desgaste. PALFIQUE LX5 puede cubrir todo lo que necesitas en tu práctica  .",
+      "PALFIQUE LX5, que ofrece restauraciones estéticas realistas, está formulado con nuestros rellenos esféricos Supra-Nano y desarrollado por Tokuyama Dental. La resina compuesta de Tokuyama Dental es reconocida mundialmente y cuenta con una pulibilidad excepcional, una amplia gama de tonos y alta resistencia al desgaste. PALFIQUE LX5 puede cubrir todas las necesidades de tu práctica clínica..",
     link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-lx5"
   },
 
@@ -82,7 +82,7 @@ const PRODUCTOS = [
     categoria: "resinas",
     imagen: "/Productos/Resinas/UNIVERSAL FLOW SUPER LOW.jpg",
     descripcion:
-      "Universal Flow Super Low es un composite de alta viscosidad y un módulo de elasticidad balanceado. Equipado con una jeringa de 3 gramos, gracias al nuevo relleno esférico Round-Shaped” garantiza una elevada trabajabilidad y bajo estrés de contracción. Resulta ideal para distintos tipos de reconstrucciones dentales.",
+      "Universal Flow Super Low es un composite de alta fluidez con un módulo de elasticidad balanceado. Equipado con una jeringa de 3 gramos, y gracias al nuevo relleno esférico Round-Shaped, garantiza una elevada trabajabilidad y bajo estrés de contracción. Resulta ideal para distintos tipos de reconstrucciones dentales.",
     link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-universal-super-low-flow"
   },
 
@@ -92,7 +92,7 @@ const PRODUCTOS = [
     categoria: "resinas",
     imagen: "/Productos/Resinas/UNIVERSAL FLOW MEDIUM.jpg",
     descripcion:
-      "Universal Flow Medium es el composite fluido de viscosidad intermedia con características únicas. Gracias a su amplio abanico cromático, con 4 tonalidades opacas de intensidad cromática creciente, este producto es muy versátil para ofrecer un amplio espectro de utilizo.",
+      "Universal Flow Medium es un composite fluido de viscosidad intermedia con características únicas. Gracias a su amplio abanico cromático, con 4 tonalidades opacas de intensidad cromática creciente, este producto es muy versátil y permite cubrir un amplio espectro de uso.",
     link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-universal-flow-m"
     
   },
@@ -103,7 +103,7 @@ const PRODUCTOS = [
     categoria: "resinas",
     imagen: "/Productos/Resinas/UNIVERSAL FLOW HIGH.jpg",
     descripcion:
-      "Universal Flow High: la viscosidad ideal, Composite de elevada fluidez que ofrece excelentes propiedades de trabajabilidad y características físicas envidiables, las misma de un composite tradicional en pasta. Tecnología patentada por Tokuyama, R.A.P. technology, que brinda un tiempo de trabajo adecuado y una aumentada rapidez de polimerización en solo 10 segundos.",
+      "Universal Flow High: la viscosidad ideal. Composite de elevada fluidez que ofrece excelentes propiedades de trabajabilidad y características físicas comparables a las de un composite tradicional en pasta. Tecnología patentada por Tokuyama, R.A.P. Technology, que brinda un tiempo de trabajo adecuado y una mayor rapidez de polimerización en solo 10 segundos.",
     link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-universal-flow-high"
   },
   
@@ -113,7 +113,7 @@ const PRODUCTOS = [
     categoria: "resinas",
     imagen: "/Productos/Resinas/ESTELITE COLOR.jpg",
     descripcion:
-      "Estelite Color es un tinte de baja viscosidad utilizado en la restauración dental para personalizar la estética de las piezas. Se aplica debajo o entre las capas de las restauraciones de compuestos dentales, ayudando a perfeccionar la apariencia general de las piezas. Estelite Color está disponible en 13 colores, lo que permite a los profesionales adaptar la estética de sus trabajos a diversas necesidades, como dientes antiguos o pigmentados por tratamientos médicos.",
+      "Estelite Color es un tinte de baja viscosidad utilizado en la restauración dental para personalizar la estética de las piezas. Se aplica debajo o entre las capas de las restauraciones con resina compuesta, ayudando a perfeccionar la apariencia general de los dientes. Estelite Color está disponible en 13 colores, lo que permite a los profesionales adaptar la estética de sus trabajos a diversas necesidades, como dientes envejecidos o pigmentados por tratamientos médicos.",
     link: "https://www.bioden.mx/collections/resinas-tokuyama/products/estelite-color"
   },
 
@@ -123,7 +123,7 @@ const PRODUCTOS = [
     categoria: "desensibilizantes",
     imagen: "/Productos/Desensibilizantes/ShieldForce.jpg",
     descripcion:
-      "TOKUYAMA® SHIELD FORCE PLUS es un sellador protector de un solo componente y de aplicación única, curado con luz, diseñado para el tratamiento de la dentina hipersensible. TOKUYAMA® SHIELD FORCE PLUS infiltra eficazmente y sella los túbulos dentinarios expuestos para inhibir el flujo de fluido a través de ellos, lo que es la causa de la sensibilidad.",
+      "TOKUYAMA® SHIELD FORCE PLUS es un sellador protector de un solo componente, de aplicación única y fotopolimerizable, diseñado para el tratamiento de la dentina hipersensible. TOKUYAMA® SHIELD FORCE PLUS infiltra eficazmente y sella los túbulos dentinarios expuestos, inhibiendo el flujo de fluido a través de ellos, principal causa de la sensibilidad.",
     link: "https://www.bioden.mx/collections/tokuyama-desensibilizantes/products/shield-force"
   },
 
@@ -133,7 +133,7 @@ const PRODUCTOS = [
     categoria: "rebases",
     imagen: "/Productos/Rebases/softRelinerToughS.jpg",
     descripcion:
-      "SOFRELINER TOUGH® S(Soft)/M(Medium) es un material de silicona con curado adicional para forro suave para la silla postiza,SOFRELINER TOUGH® S(Soft) está diseñado para usarse cuando la suavidad y durabilidad son la prioridad principal.",
+      "SOFRELINER TOUGH® S (Soft) / M (Medium) es un material de silicona de curado adicional diseñado como forro suave para prótesis dentales. La versión S (Soft) está especialmente desarrollada para situaciones donde la suavidad y la durabilidad son la máxima prioridad, brindando mayor comodidad al paciente y un excelente desempeño a largo plazo.",
     link: "https://www.bioden.mx/collections/tokuyama-rebases/products/sofreliner-tough-s"
   },
 
@@ -143,7 +143,7 @@ const PRODUCTOS = [
     categoria: "rebases",
     imagen: "/Productos/Rebases/Rebase II Kit Normal.png",
     descripcion:
-      "Tokuyama Rebase II es un material de rebase para el consultorio dental. Sin comprometer ningún beneficio de su predecesor; Tokuso Rebase, Tokuyama Rebase II ofrece mejor capacidad de pulido, menor generación de calor para el curado dentro de la boca, resistencia mecánica superior, mejor manejo y menor olor/sabor.",
+      "Tokuyama Rebase II es un material de rebase para uso en el consultorio dental que mejora las ventajas de su predecesor, Tokuso Rebase. Ofrece una mejor capacidad de pulido, menor generación de calor durante el curado dentro de la boca, mayor resistencia mecánica, mejor manejo y una notable reducción de olor y sabor, brindando mayor comodidad tanto para el profesional como para el paciente.",
     link: "https://www.bioden.mx/collections/tokuyama-rebases/products/rebase-ii-kit-normal"
   },
 
@@ -153,7 +153,7 @@ const PRODUCTOS = [
     categoria: "rebases",
     imagen: "/Productos/Rebases/Rebase II Kit Fast.png",
     descripcion:
-      "TOKUYAMA® REBASE II es un material de relincha para dentaduras duras de sillón. Sin renunciar a ningún beneficio respecto a su predecesor, el Tokuso® Rebase, el Tokuyama® Rebase II ofrece mejor pulido, menor generación de calor para el curado en boca, mayores resistencias mecánicas, mejor manejo y menos olor/sabor. Se cura en 4 minutos y 30 segundos por vía intraoral. Tokuyama® Rebase II está indicado para el relining de dentaduras duras y reparaciones parciales de dentaduras.",
+      "TOKUYAMA® REBASE II es un material de relining para dentaduras duras de aplicación directa en el sillón dental. Mantiene todos los beneficios de su predecesor, Tokuso® Rebase, e incorpora mejoras como un pulido más eficiente, menor generación de calor durante el curado intraoral, mayor resistencia mecánica, mejor manejo clínico y una reducción significativa de olor y sabor. Se cura en tan solo 4 minutos con 30 segundos en boca y está indicado para el rebase de dentaduras duras y la reparación parcial de prótesis, ofreciendo resultados rápidos, seguros y confortables para el paciente.",
     link: "https://www.bioden.mx/collections/tokuyama-rebases/products/rebase-ii-kit-fast"
   },
 
@@ -163,7 +163,7 @@ const PRODUCTOS = [
     categoria: "accesorio",
     imagen: "/Productos/Accesorios/Estelite Omega Brush.png",
     descripcion:
-      "Pinceles para el modelado exacto de composites, modelado y conformación de composites dentales: Restauraciones directas e indirectas, así como trabajos de detalle: Modelado de empastes anteriores y posteriores y carillas de composite. Trabajos finos en estructuras superficiales como fisuras o bordes, Uso en tecnología dental para el diseño de carillas, coronas, incrustaciones y recubrimientos, Ajuste de transiciones y bordes para una apariencia natural.",
+      "Pinceles especializados para el modelado preciso de composites dentales, ideales para la conformación y adaptación del material en restauraciones directas e indirectas. Permiten realizar trabajos de alto detalle, facilitando el modelado de empastes anteriores y posteriores, así como la creación de carillas de composite con gran control. Son perfectos para trabajos finos en estructuras superficiales, como fisuras y bordes, y también resultan de gran utilidad en tecnología dental para el diseño de carillas, coronas, incrustaciones y recubrimientos. Ayudan a ajustar transiciones y contornos, logrando una apariencia estética más natural y definida.",
     link: "https://www.bioden.mx/collections/tokuyama-accesorios/products/estelite-omega-brush"
   },
 
@@ -173,7 +173,7 @@ const PRODUCTOS = [
     categoria: "rebases",
     imagen: "/Productos/Rebases/softRelinerToughM.jpg",
     descripcion:
-      "SOFRELINER TOUGH® S(Soft)/M (Medium) alcanza el equilibrio opcional para el profesional que requiere una gama de suavidad y durabilidad, SOFRELINER TOUGH® M(Medium) debe usarse cuando la mayor durabilidad es la prioridad. El Silicon Remover (vendido por separado) ya está disponible, que elimina fácilmente el forro de silicona de la dentadura acrílica..",
+      "SOFRELINER TOUGH® S (Soft) / M (Medium) ofrece el equilibrio ideal para los profesionales que buscan combinar suavidad y durabilidad en el rebase de dentaduras. La versión Soft está pensada para brindar mayor confort al paciente, mientras que SOFRELINER TOUGH® M (Medium) es la opción indicada cuando se requiere una mayor resistencia y durabilidad a largo plazo. Además, el Silicon Remover (vendido por separado) facilita el trabajo clínico al permitir retirar de forma sencilla el forro de silicona de la dentadura acrílica, optimizando los tiempos y el manejo del material.",
     link: "https://www.bioden.mx/collections/tokuyama-rebases/products/sofreliner-tough-m"
   },
 

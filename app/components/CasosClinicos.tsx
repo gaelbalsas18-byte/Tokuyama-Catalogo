@@ -137,8 +137,6 @@ export default function Casos() {
                   <h3 className="text-1xl font-semibold text-blue-800 mb-6 leading-tight">
                     {casoActivo.titulo}
                   </h3>
-
-
               <ul className="space-y-3 text-sm text-neutral-700">
                 {casoActivo.pasos.map((paso: string, i: number) => (
                   <li key={i} className="flex gap-3">
