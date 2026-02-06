@@ -336,7 +336,7 @@ export default function Distribuidores() {
         ))}
       </select>
 
-      <div className="flex flex-col lg:flex-row gap-16 items-center">
+      <div className="flex flex-col lg:flex-row gap-16 items-start w-full">
         {/* MAPA */}
         <div className="relative w-[450px] h-[320px]">
           <svg viewBox="0 0 1100 700" className="w-full h-full">
@@ -609,7 +609,7 @@ export default function Distribuidores() {
         </div>
 
         {/* INFO DISTRIBUIDORES */}
-        <div className="w-full lg:max-w-xl">
+        <div className="w-full lg:w-[55%]">
           {info ? (
             <>
               <h3 className="text-xl font-semibold mb-4">
@@ -623,6 +623,7 @@ export default function Distribuidores() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.3 }}
                     className="
+                      w-full
                       p-3
                       sm:p-4
                       bg-white
@@ -630,7 +631,6 @@ export default function Distribuidores() {
                       shadow
                       text-sm
                       sm:text-base
-                      leading-snug
                       break-words
                     "
                   >
