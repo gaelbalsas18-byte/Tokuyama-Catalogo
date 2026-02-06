@@ -610,10 +610,15 @@ export default function Distribuidores() {
         </div>
 
         {/* INFO DISTRIBUIDORES */}
-        <div className="min-w-[60px]">
+        <div className="
+          w-full
+          max-w-full
+          px-2
+          sm:px-0
+        ">
           {info ? (
             <>
-              <h3 className="text-xl font-semibold mb-4">
+              <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
                 {info.nombre}
               </h3>
               <div className="space-y-3">
@@ -623,8 +628,15 @@ export default function Distribuidores() {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.3 }}
-                    className="p-4 bg-white rounded-lg shadow"
-                  >
+                    className="
+                      p-3 sm:p-4
+                      bg-white
+                      rounded-lg
+                      shadow
+                      text-sm sm:text-base
+                      leading-relaxed
+                      break-words
+                    ">
                     {dist}
                   </motion.div>
                 ))}
