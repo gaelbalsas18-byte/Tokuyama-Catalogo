@@ -252,7 +252,6 @@ export default function Catalogo() {
             />
 
         </motion.div>
-
       </section>
 
       {/* ================= CONTENIDO ================= */}
@@ -383,7 +382,6 @@ export default function Catalogo() {
                 <p className="text-neutral-600 text-center text-xs leading-relaxed">
                   {productoActivo.descripcion}
                 </p>
-
                 <a
                 href={productoActivo.link}
                 target="_blank"

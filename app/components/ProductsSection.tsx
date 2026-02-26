@@ -36,7 +36,7 @@ export default function ProductsSection() {
           </h3>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-6">
-            Palfiqué Bond
+            Palfique Universal Bond
           </h2>
 
           <p className="text-base sm:text-lg text-black mb-8 leading-relaxed max-w-md">
