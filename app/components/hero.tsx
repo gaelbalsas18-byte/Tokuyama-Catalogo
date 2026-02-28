@@ -17,11 +17,13 @@ export default function Hero() {
         <source src="/espferas.mp4" type="video/mp4" />
       </video>
       */}
-      <img
-      src="/banner omnicroma.jpg"
-      alt="Imagen Banner"
-      className="absolute inset-0 w-full h-full object-cover"
-      />
+      <div className="absolute inset-0">
+        <img
+          src="/banner omnicroma.jpg"
+          alt="Imagen Banner"
+          className="w-full h-full object-contain sm:object-cover bg-black"
+        />
+      </div>
 
       {/* OVERLAY */}
       <div className="absolute inset-0 bg-black/10 z-0" />
