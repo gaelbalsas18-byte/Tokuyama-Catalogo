@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden">
 
-      {/* VIDEO */}
+      {/* VIDEO 
       <video
         autoPlay
         muted
@@ -16,6 +16,12 @@ export default function Hero() {
       >
         <source src="/espferas.mp4" type="video/mp4" />
       </video>
+      */}
+      <img
+      src="/banner omnicroma.jpg"
+      alt="Imagen Banner"
+      className="absolute inset-0 w-full h-full object-cover"
+      />
 
       {/* OVERLAY */}
       <div className="absolute inset-0 bg-black/10 z-0" />
@@ -26,7 +32,7 @@ export default function Hero() {
         {/* LOGOS JUNTOS (lado izquierdo) */}
         <div className="flex items-center gap-4 px-6 pt-4 max-w-7xl mx-auto w-full">
           
-          {/* BALSAS */}
+          {/* BALSAS 
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -40,9 +46,9 @@ export default function Hero() {
               className="w-20 md:w-28"
               priority
             />
-          </motion.div>
+          </motion.div> */}
 
-          {/* TOKUYAMA */}
+          {/* TOKUYAMA 
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -56,11 +62,11 @@ export default function Hero() {
               className="w-20 md:w-28"
               priority
             />
-          </motion.div>
+          </motion.div>*/}
 
         </div>
 
-        {/* TEXTO HERO */}
+        {/* TEXTO HERO 
         <div className="flex flex-1 items-center px-6">
           <div className="max-w-xl">
 
@@ -98,7 +104,7 @@ export default function Hero() {
             </motion.p>
 
           </div>
-        </div>
+        </div> */}
 
       </div>
     </section>
