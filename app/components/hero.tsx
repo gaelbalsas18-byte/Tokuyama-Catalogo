@@ -18,8 +18,7 @@ export default function Hero() {
       </video>
       */}
 
-
-        {/* Imagen de fondo */}
+        {/* Banner */}
         <div className="absolute inset-0">
           <img
             src="/omnichroma.jpg"
@@ -28,50 +27,92 @@ export default function Hero() {
           />
         </div>
 
-        {/* Logos lado izquierdo */}
+        {/* Logos */}
         <motion.div
-          initial={{ opacity: 0, y: 60 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.2 }}
-          className="absolute left-20 top-100 z-10"
-        >
-          <img
-            src="/logos/BalsasTrans.png"
-            alt="Balsas"
-            className="w-20 sm:w-32"
-          />
-        </motion.div>
+            initial={{ opacity: 0, y: 60 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.2 }}
+            className="
+              absolute 
+              left-30 -translate-x-1/2 top-72   /* 📱 móvil centrado */
+              sm:left-1/2 sm:-translate-x-1/2 sm:top-80   /* 📲 tablet */
+              md:left-75 md:top-105 md:translate-x-0   /* 🖥 desktop (tus valores originales) */
+              z-10
+            "
+          >
+            <img
+              src="/logos/BalsasTrans.png"
+              alt="Balsas"
+              className="w-16 sm:w-20 md:w-20"
+            />
+          </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, y: 60 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.2 }}
-          className="absolute right-195 top-108 flex flex-col gap-4 z-10"
-        >
-          <img
-            src="/logos/tokuyama-logo.png"
-            alt="Balsas"
-            className="w-20 sm:w-65"
-          />
-        </motion.div>
+            initial={{ opacity: 0, y: 60 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.2 }}
+            className="
+              absolute 
+              left-52 -translate-x-1/2 top-77  /* 📱 móvil */
+              sm:left-1/2 sm:-translate-x-1/2 sm:top-[26rem] /* 📲 tablet */
+              md:right-166 md:top-108 md:left-auto md:translate-x-0 /* 🖥 desktop */
+              z-10
+            "
+          >
+            <img
+              src="/logos/tokuyama-logo.png"
+              alt="Tokuyama"
+              className="w-24 sm:w-32 md:w-48"
+            />
+          </motion.div>
         
-        {/* Imagen fecha centrada abajo */}
-        <div className="absolute top-25 bottom-10 left-1/3 transform -translate-x-1/2 z-15">
+       <motion.div
+          animate={{
+            opacity: 1,
+            scale: 1.2,
+            y: [0, -20, 0],
+          }}
+          transition={{
+            opacity: { duration: 1 },
+            scale: { duration: 2 },
+            y: {
+              duration: 6,
+              repeat: Infinity,
+              ease: "easeInOut",
+            },
+          }}
+          className="
+            absolute 
+            left-1/2 -translate-x-1/2 top-52   /* 📱 móvil */
+            sm:top-56                          /* 📲 tablet */
+            md:left-50 md:top-40 md:translate-x-0 /* 🖥 desktop original */
+            z-15
+          "
+        >
           <img
             src="/fecha.png"
             alt="Fecha"
-            className="w-720 sm:w-full"
+            className="w-72 sm:w-96 md:w-[720px]"
           />
-        </div>
-
-        <div className="absolute top-40 bottom-10 left-70 transform -translate-x-1/2 z-15">
+        </motion.div>
+        
+        {/*Encabezado*/}
+        <div
+          className="
+            absolute 
+            left-40 -translate-x-1/2 top-40   /* 📱 móvil */
+            sm:top-36                          /* 📲 tablet */
+            md:left-80 md:top-45 md:translate-x-0 /* 🖥 desktop */
+            z-15
+          "
+        >
           <motion.h4
-          initial={{ opacity: 0, y: 60}}
-          animate={{ opacity: 1, y:  0}}
-          transition={{ duration: 1.2}}
-          className="font-bold text-4xl"
+            initial={{ opacity: 0, y: 60 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.2 }}
+            className="font-bold text-2xl sm:text-3xl md:text-4xl"
           >
-            Proximamente.
+            Próximamente
           </motion.h4>
         </div>
 
