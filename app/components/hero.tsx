@@ -17,13 +17,63 @@ export default function Hero() {
         <source src="/espferas.mp4" type="video/mp4" />
       </video>
       */}
-      <div className="absolute inset-0">
-        <img
-          src="/banner omnicroma.jpg"
-          alt="Imagen Banner"
-          className="w-full h-full object-contain sm:object-cover bg-black"
-        />
-      </div>
+
+
+        {/* Imagen de fondo */}
+        <div className="absolute inset-0">
+          <img
+            src="/omnichroma.jpg"
+            alt="Imagen Banner"
+            className="w-full h-full object-contain sm:object-cover bg-black"
+          />
+        </div>
+
+        {/* Logos lado izquierdo */}
+        <motion.div
+          initial={{ opacity: 0, y: 60 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2 }}
+          className="absolute left-20 top-100 z-10"
+        >
+          <img
+            src="/logos/BalsasTrans.png"
+            alt="Balsas"
+            className="w-20 sm:w-32"
+          />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 60 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2 }}
+          className="absolute right-195 top-108 flex flex-col gap-4 z-10"
+        >
+          <img
+            src="/logos/tokuyama-logo.png"
+            alt="Balsas"
+            className="w-20 sm:w-65"
+          />
+        </motion.div>
+        
+        {/* Imagen fecha centrada abajo */}
+        <div className="absolute top-25 bottom-10 left-1/3 transform -translate-x-1/2 z-15">
+          <img
+            src="/fecha.png"
+            alt="Fecha"
+            className="w-720 sm:w-full"
+          />
+        </div>
+
+        <div className="absolute top-40 bottom-10 left-70 transform -translate-x-1/2 z-15">
+          <motion.h4
+          initial={{ opacity: 0, y: 60}}
+          animate={{ opacity: 1, y:  0}}
+          transition={{ duration: 1.2}}
+          className="font-bold text-4xl"
+          >
+            Proximamente.
+          </motion.h4>
+        </div>
 
       {/* OVERLAY */}
       <div className="absolute inset-0 bg-black/10 z-0" />
