@@ -219,23 +219,21 @@ export default function Catalogo() {
             </p>
           </motion.div>
         </div>
-        
        {/* LOGO BALSAS */}
                       <motion.div
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, ease: "easeOut" }}
-                        className="absolute top-0 left-10 z-20"
+                        className="absolute top-5 left-18 z-20"
                       >
                         <Image
                           src="/logos/logo balsas.png"
                           alt="Balsas"
-                          width={120}
-                          height={80}
+                          width={85}
+                          height={90}
                           priority
                         />
                       </motion.div>
-
         {/* LOGO TOKUYAMA*/}
         <motion.div
         initial={{ opacity: 0, y: -10}}
@@ -250,7 +248,6 @@ export default function Catalogo() {
             height={100}
             priority
             />
-
         </motion.div>
       </section>
 
