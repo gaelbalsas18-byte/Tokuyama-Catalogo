@@ -340,12 +340,12 @@ export default function Catalogo() {
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, ease: "easeOut" }}
-                        className="absolute top-5 left-20 z-20"
+                        className="absolute top-7 left-30 z-20"
                       >
                         <Image
                           src="/logos/logo balsas.png"
                           alt="Balsas"
-                          width={80}
+                          width={65}
                           height={50}
                           priority
                         />
@@ -356,7 +356,7 @@ export default function Catalogo() {
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, ease: "easeOut" }}
-                        className="absolute top-5 right-20 z-20"
+                        className="absolute top-5 right-24 z-20"
                       >
                         <Image
                           src="/logos/logo tokuyama.png"
