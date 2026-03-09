@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Tokuyama Mexico",
   description: "Distribuidor oficial de productos dentales Tokuyama en México",
+  icons: {
+    icon:"/logo.png",
+  },
 };
 
 export default function RootLayout({
