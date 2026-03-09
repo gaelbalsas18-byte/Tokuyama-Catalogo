@@ -219,6 +219,7 @@ export default function Catalogo() {
             </p>
           </motion.div>
         </div>
+
        {/* LOGO BALSAS */}
                       <motion.div
                         initial={{ opacity: 0, y: -10 }}
@@ -235,6 +236,7 @@ export default function Catalogo() {
                         />
                       </motion.div>
         {/* LOGO TOKUYAMA*/}
+
         <motion.div
         initial={{ opacity: 0, y: -10}}
         animate={{ opacity: 1, y: 0}}
@@ -319,6 +321,7 @@ export default function Catalogo() {
           </motion.div>
 
           {/* ===== TARJETA INFO DERECHA ===== */}
+
           <AnimatePresence>
             {productoActivo && (
               <motion.aside
