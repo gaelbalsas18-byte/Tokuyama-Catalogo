@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Distribuidor oficial de productos dentales Tokuyama en México",
   icons: {
     icon:"/logo.png",
-  },
+  }
 };
 
 export default function RootLayout({
