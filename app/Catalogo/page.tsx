@@ -247,7 +247,7 @@ export default function Catalogo() {
             src="/logos/logo tokuyama.png"
             alt="Balsas"
             width={120}
-            height={100}
+            height={80}
             priority
             />
 
