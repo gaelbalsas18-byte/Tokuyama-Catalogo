@@ -37,7 +37,6 @@ export default function Footer() {
             Aviso de privacidad
           </a>
         </div>
-
       </div>
     </footer>
   )

@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 const CATEGORIAS = [
   { id: "todos", label: "Todos" },
+  { id: "composite", label: "Composite"},
   { id: "resinas", label: "Resinas" },
   { id: "adhesivos", label: "Adhesivos" },
   { id: "cementos", label: "Cementos" },
@@ -15,6 +16,17 @@ const CATEGORIAS = [
 ]
 
 const PRODUCTOS = [
+
+  {
+    id: 17,
+    nombre: "OMNICRHOMA",
+    categoria: "composite",
+    imagen: "/Productos/Resinas/omnichroma.png",
+    descripcion:
+      "Es el primer compuesto universal del mundo que combina estéticamente a casi todos los pacientes con un solo tono. Sus rellenos supra-nano esféricos de tamaño uniforme permiten a PALFIQUE OMNICHROMA combinar todos los tonos, una ciencia que llamamos Tecnología Cromática Inteligente. Su amplia capacidad de emparejamiento de color elimina el procedimiento de toma de tonos, reduciendo el inventario de compuestos y ahorrando tiempo y dinero a los médicos.",
+    pdf: "/Productos/Fichas/Omicroma.pdf",
+    },
+
   {
     id: 1,
     nombre: "PALFIQUE UNIVERSAL BOND",
@@ -176,7 +188,6 @@ const PRODUCTOS = [
       "SOFRELINER TOUGH® S (Soft) / M (Medium) ofrece el equilibrio ideal para los profesionales que buscan combinar suavidad y durabilidad en el rebase de dentaduras. La versión Soft está pensada para brindar mayor confort al paciente, mientras que SOFRELINER TOUGH® M (Medium) es la opción indicada cuando se requiere una mayor resistencia y durabilidad a largo plazo. Además, el Silicon Remover (vendido por separado) facilita el trabajo clínico al permitir retirar de forma sencilla el forro de silicona de la dentadura acrílica, optimizando los tiempos y el manejo del material.",
     link: "https://www.bioden.mx/collections/tokuyama-rebases/products/sofreliner-tough-m"
   },
-
 ]
 
 export default function Catalogo() {
@@ -202,9 +213,7 @@ export default function Catalogo() {
         >
           <source src="/espferas.mp4" type="video/mp4" />
         </video>
-
         <div className="absolute inset-0 bg-black/20" />
-
         <div className="relative z-10 h-full flex items-center max-w-6xl mx-auto px-10 top-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -219,7 +228,6 @@ export default function Catalogo() {
             </p>
           </motion.div>
         </div>
-
        {/* LOGO BALSAS */}
                       <motion.div
                         initial={{ opacity: 0, y: -10 }}
@@ -235,8 +243,8 @@ export default function Catalogo() {
                           priority
                         />
                       </motion.div>
-        {/* LOGO TOKUYAMA*/}
 
+        {/* LOGO TOKUYAMA*/}
         <motion.div
         initial={{ opacity: 0, y: -10}}
         animate={{ opacity: 1, y: 0}}
@@ -255,7 +263,6 @@ export default function Catalogo() {
 
       {/* ================= CONTENIDO ================= */}
       <section className="max-w-6xl mx-auto px-10 py-16">
-
         {/* ===== FILTROS ===== */}
         <div className="flex justify-start gap-8 mb-16 flex-wrap">
           {CATEGORIAS.map((cat) => (
@@ -288,6 +295,7 @@ export default function Catalogo() {
               : "grid-cols-1"
           }`}
         >
+
           {/* ===== GRID PRODUCTOS ===== */}
           <motion.div
             layout
@@ -321,7 +329,6 @@ export default function Catalogo() {
           </motion.div>
 
           {/* ===== TARJETA INFO DERECHA ===== */}
-
           <AnimatePresence>
             {productoActivo && (
               <motion.aside
@@ -338,6 +345,7 @@ export default function Catalogo() {
                 >
                   ✕
                 </button>
+
                 {/* LOGO BALSAS */}
                       <motion.div
                         initial={{ opacity: 0, y: -10 }}
@@ -353,7 +361,7 @@ export default function Catalogo() {
                           priority
                         />
                       </motion.div>
-
+                      
                     {/* LOGO TOKUYAMA */}
                       <motion.div
                         initial={{ opacity: 0, y: -10 }}
@@ -382,21 +390,35 @@ export default function Catalogo() {
                 <p className="text-neutral-600 text-center text-xs leading-relaxed">
                   {productoActivo.descripcion}
                 </p>
-                <a
-                href={productoActivo.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 block"
-                 >
-                <button className="w-full bg-blue-800 text-white text-sm font-semibold py-3 rounded-xl hover:bg-blue-700 transition-colors">
-                  "Adquiérelo"
-                </button>
-              </a>
+               {/* BOTONES DINÁMICOS */}
+                {productoActivo.id !== 17 && productoActivo.link && (
+                  <a
+                    href={productoActivo.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 block"
+                  >
+                    <button className="w-full bg-blue-800 text-white text-sm font-semibold py-3 rounded-xl hover:bg-blue-700 transition-colors">
+                      Adquiérelo
+                    </button>
+                  </a>
+                )}
 
+               {productoActivo.pdf && (
+                  <a
+                    href={productoActivo.pdf}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 block"
+                  >
+                    <button className="w-full bg-blue-800 text-white text-sm font-semibold py-3 rounded-xl hover:bg-blue-700 transition-colors">
+                      Ficha Técnica
+                    </button>
+                  </a>
+                )}
               </motion.aside>
             )}
           </AnimatePresence>
-
         </motion.div>
       </section>
     </main>

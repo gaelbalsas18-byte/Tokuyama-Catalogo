@@ -87,10 +87,8 @@ export default function Chatbot() {
             fixed 
             bottom-4 
             left-1/2 -translate-x-1/2   /* centrado en móvil */
-
             sm:left-auto sm:translate-x-0 sm:right-6  /* derecha en desktop */
             sm:bottom-6
-
             z-50 
             rounded-xl 
             bg-black/60 
@@ -102,7 +100,7 @@ export default function Chatbot() {
             transition
           "
           >
-            Asistente en espera
+            Asistente en espera.
           </motion.button>
         )}
       </AnimatePresence>
@@ -120,21 +118,16 @@ export default function Chatbot() {
               bottom-4 
               left-4 right-4   /* ocupa el espacio entre ambos lados */
               sm:left-auto sm:right-6   /* en desktop vuelve a la derecha */
-
               sm:bottom-6
               z-50
-
               w-auto
               w-[78vw]
               max-w-[290px]
               sm:w-80
               md:w-96
-
               mx-auto   /* centra cuando left/right están activos */
-
               max-h-[70vh] sm:max-h-[75vh]
               overflow-y-auto
-
               rounded-2xl 
               border 
               bg-white 
@@ -217,7 +210,6 @@ export default function Chatbot() {
                     <p className="font-medium text-black">
                       Bienvenido a Tokuyama {name}, ¿qué estás buscando?
                     </p>
-
                     <div className="space-y-2 pt-2">
                       <button
                         onClick={() => goToSection("productos")}
