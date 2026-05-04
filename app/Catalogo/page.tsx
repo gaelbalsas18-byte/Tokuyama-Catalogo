@@ -415,7 +415,7 @@ export default function Catalogo() {
                     href={productoActivo.pdf}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-6 block"
+                    className="mt-4 block"
                   >
                     <button className="w-full bg-blue-800 text-white text-sm font-semibold py-3 rounded-xl hover:bg-blue-700 transition-colors">
                       Ficha Técnica
