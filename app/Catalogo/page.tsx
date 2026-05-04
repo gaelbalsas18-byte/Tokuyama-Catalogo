@@ -24,7 +24,7 @@ const PRODUCTOS = [
     imagen: "/Productos/Resinas/omnichroma.png",
     descripcion:
       "Es el primer compuesto universal del mundo que combina estéticamente a casi todos los pacientes con un solo tono. Sus rellenos supra-nano esféricos de tamaño uniforme permiten a PALFIQUE OMNICHROMA combinar todos los tonos, una ciencia que llamamos Tecnología Cromática Inteligente. Su amplia capacidad de emparejamiento de color elimina el procedimiento de toma de tonos, reduciendo el inventario de compuestos y ahorrando tiempo y dinero a los médicos.",
-    pdf: "/Productos/Fichas/Omicroma.pdf",
+    pdf: "/flayers/omnichroma.pdf",
     },
 
   {
@@ -35,6 +35,7 @@ const PRODUCTOS = [
     descripcion:
       "PALFIQUE UNIVERSAL BOND es un sistema adhesivo para restauraciones directas e indirectas que puede utilizarse con técnicas de autograbado, grabado selectivo y grabado total. Como adhesivo universal, PALFIQUE UNIVERSAL BOND ha sido diseñado para ser totalmente compatible con materiales compuestos fotopolimerizables, autocurables y de doble curado.",
     link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/kit-palfique-universal-bond",
+    pdf: "/flayers/palfUnivBond.pdf",
   },
 
   {
@@ -44,8 +45,8 @@ const PRODUCTOS = [
     imagen: "/Productos/ESTECEM KIT.jpg",
     descripcion:
       " Cemento resinoso adhesivo de curado dual (luz y/o autopolimerización), radiopaco y universal, diseñado para una cementación indirecta fiable y estética de coronas, puentes, carillas, inlays/onlays y pernos en una amplia gama de materiales (cerámicas, metales y resinas).",
-    link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/kit-estecem-plus-universal"
-
+    link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/kit-estecem-plus-universal",
+    pdf: "/flayers/estecemPlus.pdf",
   },
 
   {
@@ -55,7 +56,8 @@ const PRODUCTOS = [
     imagen: "/Productos/Adhesivos/ESTECEM.jpg",
     descripcion:
       " Cemento resinoso adhesivo de curado dual (luz y/o autopolimerización), radiopaco y universal, diseñado para una cementación indirecta fiable y estética de coronas, puentes, carillas, inlay/onlays, y pernos en una amplia gama de materiales (cerámicas, metales, resinas).Cemento resinoso adhesivo de curado dual (luz y/o autopolimerización), radiopaco y universal, diseñado para una cementación indirecta fiable y estética de coronas, puentes, carillas, inlays/onlays y pernos en una amplia gama de materiales (cerámicas, metales y resinas).",
-    link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/estecem-plus-paste"
+    link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/estecem-plus-paste",
+    pdf: "/flayers/estecemPlus.pdf",
   },
 
   {
@@ -65,7 +67,8 @@ const PRODUCTOS = [
     imagen: "/Productos/Adhesivos/Bond.jpg",
     descripcion:
       " Crea integridad y una capa de unión uniforme. PALFIQUE Bond emplea la tecnología de monómero SR 3D para proporcionar una resistencia adhesiva fuerte y duradera, así como una menor sensibilidad técnica y postoperatoria. Esta es la ventaja de un sistema adhesivo autograbador de un solo componente que utiliza el monómero SR 3D.",
-    link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/palfique-bond"
+    link: "https://www.bioden.mx/collections/tokuyama-adhesivos/products/palfique-bond",
+    pdf: "/flayers/palifiqueBond.pdf",
   },
 
   {
@@ -75,7 +78,8 @@ const PRODUCTOS = [
     imagen:"/Productos/Resinas/Palfique asteria.jpg",
     descripcion:
       "Palfique Asteria introduce un nuevo concepto simplificado de estratificación en dos pasos. Este sistema integral está compuesto por una cantidad mínima de tonos: solo 7 tonos Body y 5 tonos Enamel cubren toda la gama de tonos dentales. El resultado estético se obtiene con el concepto simple de dos capas de Palfique Asteria, ya que los tonos Body replican el croma y el tono, mientras que los tonos Enamel replican el valor.",
-    link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-asteria"
+    link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-asteria",
+    pdf: "/flayers/PalfiqueAsteria.pdf",
   },
 
   {
@@ -85,7 +89,8 @@ const PRODUCTOS = [
     imagen: "/Productos/Resinas/PALFIQUE LX5.jpg",
     descripcion:
       "PALFIQUE LX5, que ofrece restauraciones estéticas realistas, está formulado con nuestros rellenos esféricos Supra-Nano y desarrollado por Tokuyama Dental. La resina compuesta de Tokuyama Dental es reconocida mundialmente y cuenta con una pulibilidad excepcional, una amplia gama de tonos y alta resistencia al desgaste. PALFIQUE LX5 puede cubrir todas las necesidades de tu práctica clínica..",
-    link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-lx5"
+    link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-lx5",
+    pdf: "/flayers/palfiqueLX5.pdf",
   },
 
   {
@@ -136,7 +141,8 @@ const PRODUCTOS = [
     imagen: "/Productos/Desensibilizantes/ShieldForce.jpg",
     descripcion:
       "TOKUYAMA® SHIELD FORCE PLUS es un sellador protector de un solo componente, de aplicación única y fotopolimerizable, diseñado para el tratamiento de la dentina hipersensible. TOKUYAMA® SHIELD FORCE PLUS infiltra eficazmente y sella los túbulos dentinarios expuestos, inhibiendo el flujo de fluido a través de ellos, principal causa de la sensibilidad.",
-    link: "https://www.bioden.mx/collections/tokuyama-desensibilizantes/products/shield-force"
+    link: "https://www.bioden.mx/collections/tokuyama-desensibilizantes/products/shield-force",
+    pdf: "/flayers/shieldForcePlus.pdf",
   },
 
   {

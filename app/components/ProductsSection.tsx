@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 export default function ProductsSection() {
 
-  // 🔥 PRODUCTOS (imagen + texto)
+  // PRODUCTOS (imagen + texto)
   const products = [
     {
       img: "/Productos/Resinas/omnichroma.png",
@@ -17,6 +17,7 @@ export default function ProductsSection() {
       desc: "Es el primer compuesto universal del mundo que combina estéticamente a casi todos los pacientes con un solo tono, permite combinar todos los tonos, una ciencia que llamamos Tecnología Cromática Inteligente.",
       effect: "rainbow",
     },
+
     {
       img: "/Productos/Universal2.png",
       frame: "/logos/marco palfique.png",
@@ -25,6 +26,7 @@ export default function ProductsSection() {
       desc: "Sistema adhesivo universal de Tokuyama que ofrece una adhesión confiable, alta durabilidad clínica y un manejo sencillo para procedimientos restaurativos de alto nivel.",
       effect: "palfique",
     },
+    
   ]
 
 type EffectType = "rainbow" | "palfique"
@@ -38,7 +40,7 @@ const getTitleClass = (effect?: EffectType) => {
   return effect ? map[effect] : ""
 }
 
-  const [index, setIndex] = useState(0)
+ const [index, setIndex] = useState(0)
 
  const next = () => {
   if (products.length <= 1) return
