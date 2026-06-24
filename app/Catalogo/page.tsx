@@ -17,15 +17,38 @@ const CATEGORIAS = [
 
 const PRODUCTOS = [
 
-  {
-    id: 17,
+  /**{
+    id: 18,
     nombre: "OMNICRHOMA",
     categoria: "composite",
     imagen: "/Productos/Resinas/omnichroma.png",
     descripcion:
       "Es el primer compuesto universal del mundo que combina estéticamente a casi todos los pacientes con un solo tono. Sus rellenos supra-nano esféricos de tamaño uniforme permiten a PALFIQUE OMNICHROMA combinar todos los tonos, una ciencia que llamamos Tecnología Cromática Inteligente. Su amplia capacidad de emparejamiento de color elimina el procedimiento de toma de tonos, reduciendo el inventario de compuestos y ahorrando tiempo y dinero a los médicos.",
+    link: "https://www.bioden.mx/collections/resinas-tokuyama/products/omnichroma",
     pdf: "/flayers/omnichroma.pdf",
     },
+    **/
+
+    {
+    id: 18,
+    nombre: "OMNICHROMA",
+    categoria: "composite",
+    imagen: "/Productos/Resinas/Omnichroma.jpg",
+    descripcion:
+   "Es el primer compuesto universal del mundo que combina estéticamente a casi todos los pacientes con un solo tono. Sus rellenos supra-nano esféricos de tamaño uniforme permiten a PALFIQUE OMNICHROMA combinar todos los tonos, una ciencia que llamamos Tecnología Cromática Inteligente. Su amplia capacidad de emparejamiento de color elimina el procedimiento de toma de tonos, reduciendo el inventario de compuestos y ahorrando tiempo y dinero a los médicos.",
+    link: "https://www.bioden.mx/collections/resinas-tokuyama/products/omnichroma",
+    pdf: "/flayers/omnichroma.pdf",
+  },
+
+  {
+    id: 19,
+    nombre: "OMNICHROMA BLOCKER",
+    categoria: "composite",
+    imagen: "/Productos/Resinas/Blocker.jpg",
+    descripcion:
+   "El OMNICHROMA BLOCKER  se utiliza como capa lingual para restauraciones grandes de Clase III o IV con dentición circundante limitada, Tras aplicar y curar el OMNICHROMA BLOCKER, se aplica palfique omnichroma como segunda capa.",
+    link: "https://www.bioden.mx/collections/resinas-tokuyama/products/omnichroma-blocker",
+  },
 
   {
     id: 1,
@@ -111,7 +134,6 @@ const PRODUCTOS = [
     descripcion:
       "Universal Flow Medium es un composite fluido de viscosidad intermedia con características únicas. Gracias a su amplio abanico cromático, con 4 tonalidades opacas de intensidad cromática creciente, este producto es muy versátil y permite cubrir un amplio espectro de uso.",
     link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-universal-flow-m"
-    
   },
 
   {
@@ -123,7 +145,7 @@ const PRODUCTOS = [
       "Universal Flow High: la viscosidad ideal. Composite de elevada fluidez que ofrece excelentes propiedades de trabajabilidad y características físicas comparables a las de un composite tradicional en pasta. Tecnología patentada por Tokuyama, R.A.P. Technology, que brinda un tiempo de trabajo adecuado y una mayor rapidez de polimerización en solo 10 segundos.",
     link: "https://www.bioden.mx/collections/resinas-tokuyama/products/palfique-universal-flow-high"
   },
-  
+
   {
     id: 10,
     nombre: "UNIVERSAL ESTELITE COLOR",

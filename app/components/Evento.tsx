@@ -91,12 +91,12 @@ export default function Evento() {
         <div className="w-full flex justify-center">
           
             <a
-              href="https://fest.tokuyama.mx/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
               <button className="px-10 py-3 border border-black tracking-wide uppercase text-sm hover:bg-black hover:text-white transition-all duration-300">
-                VISITAR
+                PROXIMAMENTE
               </button>
             </a>
         </div>

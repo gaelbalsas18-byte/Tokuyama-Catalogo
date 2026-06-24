@@ -80,7 +80,7 @@ export const CONTACTOS = [
 
   },
 
-  {
+  /**{
     id: 9,
     nombre: "Veronica Eloisa Villegas Piña",
     puesto: "Asesor clinico dental",
@@ -88,10 +88,10 @@ export const CONTACTOS = [
     email: "ventas.mayoreo@balsasdental.com",
     telefono: "Tel: 56 1512 9211",
     imagen: "/Personal/Vero.jpg",
-  },
+  },**/
 
   {
-    id: 10,
+    id: 9,
     nombre: "Humberto Corvera Santillan",
     puesto: "Asesor clinico dental",
     estado: "Baja California, Baja California sur, Chiapas, Querétaro, Tabasco, Yucatán",
@@ -101,7 +101,7 @@ export const CONTACTOS = [
     
   },
 
-  {
+  /**{
     id: 11,
     nombre: "Ana Michelle Ramírez González",
     puesto: "Asesor clinico dental",
@@ -109,10 +109,10 @@ export const CONTACTOS = [
     email: "ana.ramirez@balsasdental.com",
     telefono: "Tel: 81 2074 4310",
     imagen: "/Personal/Michelle.jpg"    
-  },
+  }, **/
 
   {
-    id: 12,
+    id: 11,
     nombre: "Melissa Andrea Rodríguez Otero",
     puesto: "Asesor clinico dental",
     estado: "Puebla, Tlaxcala",
@@ -122,3 +122,6 @@ export const CONTACTOS = [
     
   },
 ]
+
+
+
