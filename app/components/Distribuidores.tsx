@@ -66,7 +66,7 @@ const INFO_ESTADOS = {
     "YAEL ARIADNA NAVARRO HERNANDEZ plomo 282 tel: 5512949321",
     "DISTRIBUIDORA DENTAL SIGLO 21 santiago 2505 tel: 5536743496",
     "DEPOSITO DENTAL LUDY batallon de zacapoaxtla 8-A tel: 5557446067",
-
+    "DEPOSITO DENTALMEX Manta 672 Loc. F colonia: Lindavista Sur 07300 ciudad: cdmx tel: 5588589260",
     ],
   },
 
@@ -77,7 +77,6 @@ const INFO_ESTADOS = {
     "DEPODENT  andador austria esq dinamarca mzC 54B, local 3, 54700 cuautitlán izcalli, Méx. TEL: 55 1936 3848",
     "DEPOSITO DENTAL DEL VALLE junto walmart express, blvd a queretaro 13, habit.viveros del valle, hab viveros del valle, 54060 tlalnepantla, méx. tel:  55 3449 6696",
     "DEPOSITO DENTAL BOSQUES plaza san judas, andador austria esq dinamarca, mzC 54B, lote 43 local 4 PB, 54700 cuautitlán izcalli, méx. tel: 55 5871 7126",
-    "LUZ MARIA ORTIZ calle: san felipe mz 3 colonia: emiliano zapata 56490 ciudad: edo de méxico tel: 55 4042 8526"
     ],
   },
 
