@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden">
 
-      {/* VIDEO 
+       VIDEO 
       <video
         autoPlay
         muted
@@ -16,106 +16,125 @@ export default function Hero() {
       >
         <source src="/espferas.mp4" type="video/mp4" />
       </video>
-      */}
-
+      
         {/* Banner */}
-        <div className="absolute inset-0">
+        {/*<div className="absolute inset-0">
           <img
             src="/omnichroma.jpg"
             alt="Imagen Banner"
             className="w-full h-full object-contain sm:object-cover bg-black"
           />
-        </div>
+        </div>*/}
 
-        {/* Logos */}
-        <motion.div
-            initial={{ opacity: 0, y: 60 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
-            className="
-              absolute 
-              left-30 -translate-x-1/2 top-72   /* 📱 móvil centrado */
-              sm:left-1/2 sm:-translate-x-1/2 sm:top-80   /* 📲 tablet */
-              md:left-75 md:top-105 md:translate-x-0   /* 🖥 desktop (tus valores originales) */
-              z-10
-            "
-          >
-            <img
-              src="/logos/BalsasTrans.png"
-              alt="Balsas"
-              className="w-16 sm:w-20 md:w-20"
-            />
-          </motion.div>
+        {/* Contenido del Hero */}
+<div className="absolute inset-0 z-20 flex items-center">
 
-        <motion.div
-            initial={{ opacity: 0, y: 60 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
-            className="
-              absolute 
-              left-52 -translate-x-1/2 top-77  /* 📱 móvil */
-              sm:left-1/2 sm:-translate-x-1/2 sm:top-[26rem] /* 📲 tablet */
-              md:right-166 md:top-108 md:left-auto md:translate-x-0 /* 🖥 desktop */
-              z-10
-            "
-          >
-            <img
-              src="/logos/tokuyama-logo.png"
-              alt="Tokuyama"
-              className="w-24 sm:w-32 md:w-48"
-            />
-          </motion.div>
-        
-       <motion.div
-          animate={{
-            opacity: 1,
-            scale: 1.2,
-            y: [0, -20, 0],
-          }}
-          transition={{
-            opacity: { duration: 1 },
-            scale: { duration: 2 },
-            y: {
-              duration: 6,
-              repeat: Infinity,
-              ease: "easeInOut",
-            },
-          }}
-          className="
-            absolute 
-            left-1/2 -translate-x-1/2 top-52   /* 📱 móvil */
-            sm:top-56                          /* 📲 tablet */
-            md:left-50 md:top-40 md:translate-x-0 /* 🖥 desktop original */
-            z-15
-          "
-        >
-          <img
-            src="/fecha.png"
-            alt="Fecha"
-            className="w-72 sm:w-96 md:w-[720px]"
-          />
-        </motion.div>
-        
-        {/*Encabezado*/}
-        <div
-          className="
-            absolute 
-            left-40 -translate-x-1/2 top-40   /* 📱 móvil */
-            sm:top-36                          /* 📲 tablet */
-            md:left-80 md:top-45 md:translate-x-0 /* 🖥 desktop */
-            z-15
-          "
-        >
-          <motion.h4
-            initial={{ opacity: 0, y: 60 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
-            className="font-bold text-2xl sm:text-3xl md:text-4xl"
-          >
-            Próximamente
-          </motion.h4>
-        </div>
+  <div className="
+      w-full
+      max-w-7xl
+      mx-auto
+      px-6
+      md:px-10
+      lg:px-20
 
+      flex
+      flex-col-reverse
+      md:flex-row
+
+      items-center
+      justify-between
+      gap-10
+  ">
+
+    {/* ==================== TEXTO ==================== */}
+    <motion.div
+      initial={{ opacity: 0, x: -80 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1 }}
+      className="
+        w-full
+        md:w-1/2
+
+        text-center
+        md:text-left
+      "
+    >
+
+      <h1 className="
+          text-3xl
+          sm:text-4xl
+          lg:text-6xl
+
+          font-bold
+          text-blue-700
+          leading-tight
+      ">
+        Donde la innovación se convierte en excelencia
+      </h1>
+
+      <p className="
+          mt-6
+
+          text-base
+          sm:text-lg
+          lg:text-xl
+
+          text-gray-700
+          leading-relaxed
+      ">
+        Reconocida por desarrollar materiales de alta calidad que brindan
+        precisión, confianza y excelentes resultados clínicos.
+      </p>
+
+    </motion.div>
+
+    {/* ==================== LOGOS ==================== */}
+
+    <motion.div
+      initial={{ opacity: 0, x: 80 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1 }}
+      className="
+          w-full
+          md:w-1/2
+
+          flex
+          justify-center
+          md:justify-end
+
+          items-center
+          gap-6
+          lg:gap-10
+      "
+    >
+
+      <img
+        src="/logos/BalsasTrans.png"
+        alt="Balsas"
+        className="
+            w-20
+            sm:w-24
+            md:w-28
+            lg:w-36
+        "
+      />
+
+      <img
+        src="/logos/tokuyama-logo.png"
+        alt="Tokuyama"
+        className="
+            w-36
+            sm:w-44
+            md:w-52
+            lg:w-64
+        "
+      />
+
+    </motion.div>
+
+  </div>
+
+</div>
       {/* OVERLAY */}
       <div className="absolute inset-0 bg-black/10 z-0" />
 
