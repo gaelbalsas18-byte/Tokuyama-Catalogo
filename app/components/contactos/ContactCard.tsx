@@ -30,7 +30,7 @@ export const CONTACTOS = [
     imagen: "/Personal/Alejandro.jpg",
   },
 
-  {
+  /**{
     id: 4,
     nombre: "Armando Serrano",
     puesto: "Asesor clinico dental",
@@ -38,7 +38,7 @@ export const CONTACTOS = [
     email: "armando.serrano@balsasdental.com",
     telefono: "Tel: 56 1185 4354",
     imagen: "/Personal/ARMANDO.jpeg",
-  },
+  },**/
 
   {
     id: 5,
